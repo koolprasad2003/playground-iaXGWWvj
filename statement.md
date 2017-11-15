@@ -96,6 +96,7 @@ public static string CreateHOCR(OcrMode Mode, string Language, string imagePath)
 
             return outputFile + ".html";
         }
+```
 
 finally we need to convert .hoct.html file back to pdf (which is our final output), we use iTextSharp PDf write to write content from .hocr.html file to PDF
 see below snippet, to know how to write PDF file from .hocr.html
@@ -170,7 +171,7 @@ How to run
 
 I have attached source code and EXE with this article
 
-###Summing Up
+### Summing Up
 
 With the help of GhostScript, tesseract and iTextsharp, we can create a scanned PDF to textsearchable PDF, a lot can happen with the help of iTextsharp Dlls we can see them in upcoming articles.
 
