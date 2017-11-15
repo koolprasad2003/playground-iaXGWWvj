@@ -97,26 +97,6 @@ public static string CreateHOCR(OcrMode Mode, string Language, string imagePath)
             return outputFile + ".html";
         }
 
-
-
-```C# runnable
-// { autofold
-using System;
-
-class Hello 
-{
-    static void Main() 
-    {
-// }
-
-Console.WriteLine("Hello World!");
-
-// { autofold
-    }
-}
-// }
-```
-
 finally we need to convert .hoct.html file back to pdf (which is our final output), we use iTextSharp PDf write to write content from .hocr.html file to PDF
 see below snippet, to know how to write PDF file from .hocr.html
 
@@ -198,7 +178,3 @@ Suggestions and Queries always welcome
 
 Thanks
 Prasad
-
-# Advanced usage
-
-If you want a more complex example (external libraries, viewers...), use the [Advanced C# template](https://tech.io/select-repo/386)
