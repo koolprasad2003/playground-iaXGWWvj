@@ -14,7 +14,7 @@ Are you looking for a code that will convert scanned PDF to OCR ? This article w
 
 To create a tool which will convert scanned PDF to OCR we need following things.
 
-Things need to collect ?
+Things need to collect
 
 1. Ghost script
 2. iTextSharp
@@ -22,9 +22,10 @@ Things need to collect ?
 4. C#/ASP.NET (.NET framework 4 and above), Visual stud
 
 **GhostScript :**
-
 It is an interpreter for the PostScript language and for PDF. Ghostscript consists of a PostScript interpreter layer, and a graphics library. Sometimes the Ghostscript graphics library is confusingly also referred to simply as Ghostscript. Even more confusingly, sometimes people say Ghostscript when they really mean GhostPDL. The Ghost script can be download from here : 
 [Ghost script Doownload](http://ghostscript.com/download/gsdnld.html)
+
+
 
 ```C# runnable
 // { autofold
